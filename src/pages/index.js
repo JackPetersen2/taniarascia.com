@@ -45,6 +45,7 @@ export default function WebsiteIndex({ data }) {
           <div className="container">
             <div className="flex-content">
               <div>
+                <img src={looking} alt="Me" className="main-image" />
                 <h1>Hey, I'm Tania.</h1>
                 <p className="subtitle small">
                   I'm a software engineer in Chicago. I love building
@@ -54,7 +55,7 @@ export default function WebsiteIndex({ data }) {
                   learned and created over the years.
                 </p>
               </div>
-              <img src={looking} alt="Me" className="main-image" />
+              
             </div>
             <p className="hero-buttons">
               <Link to="/me" className="hero-button">
